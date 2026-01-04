@@ -73,32 +73,11 @@ Damian宣布所有人接入Atlas系统进行测试。
 4.  **怀疑对象**。谁会勒死他？Alex！你一直觉得Alex是个伪君子。
 
 ---
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
-# ⛔️ 警告：在主持人(DM)指示之前，请勿阅读以下内容 ⛔️
-# ⛔️ WARNING: DO NOT READ PAST THIS LINE UNTIL INSTRUCTED BY DM ⛔️
+!!! danger "⛔️ 警告：在主持人(DM)指示之前，请勿阅读以下内容 ⛔️"
+    **⛔️ WARNING: DO NOT READ PAST THIS LINE UNTIL INSTRUCTED BY DM ⛔️**
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-## 第二幕：残酷现实 (Act 2: The Cold Reality)
+## 第二幕：残酷现实 (Act 2: The Cold Reality) {: style="margin-top: 50vh" }
 
 **21:50**
 苏醒。
@@ -129,6 +108,6 @@ Alex和Adrian那两兄弟肯定会把你们扫地出门。
 
 ## 终局 (The End)
 
-无论结果如何，你和Simon自由了。
-如果Simon继承了公司，你会成为真正的“太后”。
-Will，安息吧。
+在 Nathan 的解释中，你终于得知 Will 的死亡并非 Damian 的主观指令，而 Damian 也为此忏悔多年。
+你的愤怒与执念逐渐消散。
+最终，你选择释怀，退居幕后，安静地度过余生。

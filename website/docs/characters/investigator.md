@@ -56,32 +56,11 @@ Damian给你的指令是：观察每一个人的动向。
 3.  **保持中立**。你没有杀人动机。你是最客观的天平。
 
 ---
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
-# ⛔️ 警告：在主持人(DM)指示之前，请勿阅读以下内容 ⛔️
-# ⛔️ WARNING: DO NOT READ PAST THIS LINE UNTIL INSTRUCTED BY DM ⛔️
+!!! danger "⛔️ 警告：在主持人(DM)指示之前，请勿阅读以下内容 ⛔️"
+    **⛔️ WARNING: DO NOT READ PAST THIS LINE UNTIL INSTRUCTED BY DM ⛔️**
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-## 第二幕：残酷现实 (Act 2: The Cold Reality)
+## 第二幕：残酷现实 (Act 2: The Cold Reality) {: style="margin-top: 50vh" }
 
 **21:50**
 苏醒。

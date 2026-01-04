@@ -69,32 +69,11 @@ Joe眯起眼睛，露出了然的笑：“那就把事情推给Alex。记住，�
 4.  **配合Joe**。Joe是你的盟友，他会帮你的。
 
 ---
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
-# ⛔️ 警告：在主持人(DM)指示之前，请勿阅读以下内容 ⛔️
-# ⛔️ WARNING: DO NOT READ PAST THIS LINE UNTIL INSTRUCTED BY DM ⛔️
+!!! danger "⛔️ 警告：在主持人(DM)指示之前，请勿阅读以下内容 ⛔️"
+    **⛔️ WARNING: DO NOT READ PAST THIS LINE UNTIL INSTRUCTED BY DM ⛔️**
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-## 第二幕：残酷现实 (Act 2: The Cold Reality)
+## 第二幕：残酷现实 (Act 2: The Cold Reality) {: style="margin-top: 50vh" }
 
 **21:50**
 系统强制下线。
@@ -130,6 +109,7 @@ Joe这个人的心思深不可测。他会不会利用你？
 
 ## 终局 (The End)
 
-不管最后谁被抓走，只要不是你，你就有机会。
-但是，如果继承人是Simon……那个只会发呆的小屁孩？
-那你绝不答应。你会用尽一切手段夺回属于你的东西。
+Simon 即位后，你被保留在公司体系内，但你内心始终不服弟弟的权柄。
+你转而在金融层面暗中做空 Davion，试图用资本手段重夺控制权。
+但你的计划很快被 Simon 发现并直接检举。
+最终，你因金融犯罪入狱。

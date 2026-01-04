@@ -62,32 +62,11 @@ Atlas 的反馈路径与 Damian 的选择高度同步，却对他保持绝对中
 4.  **关于继承**。如果这是一个测试，那么最优解是什么？
 
 ---
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
-# ⛔️ 警告：在主持人(DM)指示之前，请勿阅读以下内容 ⛔️
-# ⛔️ WARNING: DO NOT READ PAST THIS LINE UNTIL INSTRUCTED BY DM ⛔️
+!!! danger "⛔️ 警告：在主持人(DM)指示之前，请勿阅读以下内容 ⛔️"
+    **⛔️ WARNING: DO NOT READ PAST THIS LINE UNTIL INSTRUCTED BY DM ⛔️**
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-## 第二幕：残酷现实 (Act 2: The Cold Reality)
+## 第二幕：残酷现实 (Act 2: The Cold Reality) {: style="margin-top: 50vh" }
 
 **21:50**
 世界崩塌。醒来。
@@ -122,5 +101,12 @@ Zach叔叔是系统架构师。如果这个世界有后门，那一定在他手�
 
 ## 终局 (The End)
 
-如果你成为了继承人。
-你会重写规则。这不再是一个残酷的实验场，而将是一个新的世界。
+**正史结局：**
+你继承了 Davion。
+早年，你清醒地推动 AI 与人类权力的制衡，使公司达到前所未有的高度。
+然而晚年，你逐渐重蹈父辈覆辙，在效率与规模中再次放松边界，犯下一系列错误，最终导致 Davion 走向破产。
+如所罗门一般，你以智慧开始，却没能以智慧结束。
+
+**分支结局（若你被检举失去资格）：**
+在 Alex 主动退出权力结构的前提下，Joe 随即推动继承重组，联合 Zach 与 Adrian 形成临时联盟。
+由于 Adrian 成为唯一具备合法继承条件的家族成员，董事会最终确认其为继承人。

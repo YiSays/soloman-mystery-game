@@ -69,32 +69,11 @@ Alex在里面？
 4.  **解释监控损坏**。如果有人发现监控坏了，就说是系统故障。
 
 ---
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
-# ⛔️ 警告：在主持人(DM)指示之前，请勿阅读以下内容 ⛔️
-# ⛔️ WARNING: DO NOT READ PAST THIS LINE UNTIL INSTRUCTED BY DM ⛔️
+!!! danger "⛔️ 警告：在主持人(DM)指示之前，请勿阅读以下内容 ⛔️"
+    **⛔️ WARNING: DO NOT READ PAST THIS LINE UNTIL INSTRUCTED BY DM ⛔️**
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-## 第二幕：残酷现实 (Act 2: The Cold Reality)
+## 第二幕：残酷现实 (Act 2: The Cold Reality) {: style="margin-top: 50vh" }
 
 **21:50**
 苏醒。
@@ -130,8 +109,7 @@ Damian死于20:15。那时候所有人都在接入中。
 
 ## 终局 (The End)
 
-Damian死了。
-你活下来了。
-不管谁接手公司，都需要一个能干脏活的“管家”。
-你依然是Davion不可或缺的Joe。
-只要你永远站在赢家那一边。
+你很快被 Simon 清算。
+对母亲的欺骗、挑拨父母关系，以及杀害 Will 的旧案与权力越界的记录被一并揭出。
+你被彻底驱逐出集团，失去了一切影响力。
+你输了，输得一无所有。

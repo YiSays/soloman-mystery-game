@@ -57,32 +57,11 @@ Damian须为此付出代价。
 4.  **保护Simon**。Simon那个孩子太像你儿子了。你希望他能好好的。
 
 ---
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
-# ⛔️ 警告：在主持人(DM)指示之前，请勿阅读以下内容 ⛔️
-# ⛔️ WARNING: DO NOT READ PAST THIS LINE UNTIL INSTRUCTED BY DM ⛔️
+!!! danger "⛔️ 警告：在主持人(DM)指示之前，请勿阅读以下内容 ⛔️"
+    **⛔️ WARNING: DO NOT READ PAST THIS LINE UNTIL INSTRUCTED BY DM ⛔️**
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-## 第二幕：残酷现实 (Act 2: The Cold Reality)
+## 第二幕：残酷现实 (Act 2: The Cold Reality) {: style="margin-top: 50vh" }
 
 **21:50**
 苏醒。
@@ -118,6 +97,6 @@ Damian真的死了。
 
 ## 终局 (The End)
 
-正义迟到了。
-你会退休，彻底离开这个充满谎言的地方。
-也许你会去儿子的墓前，告诉他：害你的人已经不在了。
+在揭示真相后，你选择了退场。
+你不再参与任何权力博弈，彻底退休。
+正义或许迟到了，但你终于为此画上了一个句号。

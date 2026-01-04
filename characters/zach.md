@@ -85,32 +85,11 @@ Damian躺在病床上，插着呼吸机。
 3.  **不在场证明**。你在虚拟世界的20:00-20:30这段时间是“缺失”的。如果有入问起，就说“系统延迟”或者“我在调试后台数据”。
 
 ---
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
-# ⛔️ 警告：在主持人(DM)指示之前，请勿阅读以下内容 ⛔️
-# ⛔️ WARNING: DO NOT READ PAST THIS LINE UNTIL INSTRUCTED BY DM ⛔️
+!!! danger "⛔️ 警告：在主持人(DM)指示之前，请勿阅读以下内容 ⛔️"
+    **⛔️ WARNING: DO NOT READ PAST THIS LINE UNTIL INSTRUCTED BY DM ⛔️**
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-## 第二幕：残酷现实 (Act 2: The Cold Reality)
+## 第二幕：残酷现实 (Act 2: The Cold Reality) {: style="margin-top: 50vh" }
 
 **21:50**
 全员苏醒。
@@ -142,9 +121,9 @@ Damian的尸体就在那里。
 
 ## 终局 (The End)
 
-如果被抓：
-你微笑着伸出双手。“我切断了错误的电源。剩下的路，靠你们自己走了。”
+**如果你被揭发：**
+你微笑着接受了法律的制裁，依法入狱，彻底退出舞台。你坚信自己做了一件正确的事。
 
-如果逃脱：
-你看着Simon接管了公司。
-你会继续辅佐他，确保Atlas永远只是一台机器，而不是神。
+**如果你未被检举（逃脱）：**
+你留在了 Davion，辅佐 Simon。
+你主导了 AI 权限与伦理方向的重构，成为新秩序的技术支点，确保 Atlas 永远不再越界。
