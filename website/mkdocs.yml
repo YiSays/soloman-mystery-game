@@ -1,0 +1,52 @@
+site_name: 阿特拉斯的审判
+site_description: 一个关于AI、伦理与继承权的剧本杀游戏
+site_author: Davion Admin
+
+use_directory_urls: false
+
+theme:
+  name: material
+  language: zh
+  palette: 
+    # 切换到深色模式，符合科幻/悬疑氛围
+    - scheme: slate 
+      primary: deep purple
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - scheme: default
+      primary: deep purple
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - toc.integrate
+
+nav:
+  - 游戏大厅: index.md
+  - 角色档案:
+      - Alex (COO): characters/alex.md
+      - Adrian (投资总监): characters/adrian.md
+      - Joe (特别助理): characters/joe.md
+      - Nathan (创始人): characters/nathan.md
+      - Zach (架构师): characters/zach.md
+      - Babara (妻子): characters/babara.md
+      - Simon (幼子): characters/simon.md
+      - 调查员 (可选): characters/investigator.md
+  - 🔒 DM 控制台:
+      - 主持人手册: dm/manual.md
+      - 线索清单: dm/clues.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
