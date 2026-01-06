@@ -29,26 +29,34 @@ def sync_files():
     updated_count = 0
     checked_count = 0
 
-    # 1. 同步 Characters 文件夹
-    src_chars = ROOT_DIR / "characters"
-    dst_chars = DOCS_DIR / "characters"
-    
-    if src_chars.exists():
-        dst_chars.mkdir(parents=True, exist_ok=True)
-        for src_file in src_chars.glob("*.md"):
-            dst_file = dst_chars / src_file.name
-            checked_count += 1
-            
-            if needs_update(src_file, dst_file):
-                shutil.copy2(src_file, dst_file)
-                print(f"   📝 更新: characters/{src_file.name}")
-                updated_count += 1
-    
-    # 2. 同步独立文件映射
+    # 1. 文件夹同步配置 (源文件夹名 -> 目标文件夹名)
+    folder_syncs = {
+        "characters": "characters",
+        "game": "game",
+        "dm": "dm"
+    }
+
+    for src_dir_name, dst_dir_name in folder_syncs.items():
+        src_dir = ROOT_DIR / src_dir_name
+        dst_dir = DOCS_DIR / dst_dir_name
+        
+        if src_dir.exists():
+            dst_dir.mkdir(parents=True, exist_ok=True)
+            for src_file in src_dir.glob("*.md"):
+                dst_file = dst_dir / src_file.name
+                checked_count += 1
+                
+                if needs_update(src_file, dst_file):
+                    shutil.copy2(src_file, dst_file)
+                    print(f"   📝 更新: {src_dir_name}/{src_file.name}")
+                    updated_count += 1
+
+    # 2. 独立文件映射配置 (源文件名 -> 目标相对路径)
     file_mapping = {
         "game_intro.md": "index.md",
         "dm_manual.md": "dm/manual.md",
-        "clues_list.md": "dm/clues.md"
+        "clues_list.md": "dm/clues.md",
+        "game_outline.md": "design/outline.md"
     }
 
     for src_name, dst_rel_path in file_mapping.items():

@@ -8,28 +8,36 @@ theme:
   name: material
   language: zh
   palette: 
-    # 切换到深色模式，符合科幻/悬疑氛围
+    # 深色模式 - 默认
     - scheme: slate 
       primary: deep purple
       accent: teal
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode
+        name: 切换至浅色模式
+    # 浅色模式
     - scheme: default
       primary: deep purple
       accent: teal
       toggle:
         icon: material/brightness-7
-        name: Switch to dark mode
+        name: 切换至深色模式
   features:
     - navigation.tabs
     - navigation.sections
     - navigation.top
+    - navigation.expand
+    - navigation.indexes
+    - toc.follow
     - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.code.copy
 
 nav:
   - 游戏大厅: index.md
   - 角色档案:
+      - Damian (创始人/主席): characters/damian.md
       - Alex (COO): characters/alex.md
       - Adrian (投资总监): characters/adrian.md
       - Joe (特别助理): characters/joe.md
@@ -38,15 +46,25 @@ nav:
       - Babara (妻子): characters/babara.md
       - Simon (幼子): characters/simon.md
       - 调查员 (可选): characters/investigator.md
+  - 游戏规则:
+      - 玩家手册: game/player_rules.md
+      - 地图设定: game/map_concept.md
   - 🔒 DM 控制台:
       - 主持人手册: dm/manual.md
-      - 线索清单: dm/clues.md
+      - 时间线全貌: dm/timeline_master.md
+      - Atlas 旁白库: dm/atlas_scripts.md
+      - 线索清单 (汇总): dm/clues.md
+      - 线索卡 (详细): dm/clue_cards.md
+  - 设计文档:
+      - 游戏大纲: design/outline.md
 
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
   - attr_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
