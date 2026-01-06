@@ -37,7 +37,8 @@ theme:
 nav:
   - 游戏大厅: index.md
   - 角色档案:
-      - Damian (创始人/主席): characters/damian.md
+      - Damian (第8人/AI意识): characters/damian.md
+      - Damian (人物小传/背景): characters/damian_history.md
       - Alex (COO): characters/alex.md
       - Adrian (投资总监): characters/adrian.md
       - Joe (特别助理): characters/joe.md
@@ -45,7 +46,6 @@ nav:
       - Zach (架构师): characters/zach.md
       - Babara (妻子): characters/babara.md
       - Simon (幼子): characters/simon.md
-      - 调查员 (可选): characters/investigator.md
   - 游戏规则:
       - 玩家手册: game/player_rules.md
       - 地图设定: game/map_concept.md

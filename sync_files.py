@@ -1,14 +1,12 @@
 import shutil
-import os
-import sys
 import filecmp
-import subprocess
 from pathlib import Path
 
 # 配置路径
 ROOT_DIR = Path(__file__).parent
 WEBSITE_DIR = ROOT_DIR / "website"
 DOCS_DIR = WEBSITE_DIR / "docs"
+
 
 def needs_update(src: Path, dst: Path) -> bool:
     """
@@ -20,32 +18,29 @@ def needs_update(src: Path, dst: Path) -> bool:
     # shallow=False 表示对比文件内容，不仅仅是元数据
     return not filecmp.cmp(src, dst, shallow=False)
 
-def sync_files():
+
+def main():
     """
     同步根目录 Markdown 文件到 website/docs，仅在有变更时操作。
     """
     print(f"🔄 正在检查文件变更...")
-    
+
     updated_count = 0
     checked_count = 0
 
     # 1. 文件夹同步配置 (源文件夹名 -> 目标文件夹名)
-    folder_syncs = {
-        "characters": "characters",
-        "game": "game",
-        "dm": "dm"
-    }
+    folder_syncs = {"characters": "characters", "game": "game", "dm": "dm"}
 
     for src_dir_name, dst_dir_name in folder_syncs.items():
         src_dir = ROOT_DIR / src_dir_name
         dst_dir = DOCS_DIR / dst_dir_name
-        
+
         if src_dir.exists():
             dst_dir.mkdir(parents=True, exist_ok=True)
             for src_file in src_dir.glob("*.md"):
                 dst_file = dst_dir / src_file.name
                 checked_count += 1
-                
+
                 if needs_update(src_file, dst_file):
                     shutil.copy2(src_file, dst_file)
                     print(f"   📝 更新: {src_dir_name}/{src_file.name}")
@@ -56,17 +51,17 @@ def sync_files():
         "game_intro.md": "index.md",
         "dm_manual.md": "dm/manual.md",
         "clues_list.md": "dm/clues.md",
-        "game_outline.md": "design/outline.md"
+        "game_outline.md": "design/outline.md",
     }
 
     for src_name, dst_rel_path in file_mapping.items():
         src_file = ROOT_DIR / src_name
         dst_file = DOCS_DIR / dst_rel_path
-        
+
         if src_file.exists():
             dst_file.parent.mkdir(parents=True, exist_ok=True)
             checked_count += 1
-            
+
             if needs_update(src_file, dst_file):
                 shutil.copy2(src_file, dst_file)
                 print(f"   📝 更新: {src_name} -> {dst_rel_path}")
@@ -79,31 +74,6 @@ def sync_files():
     else:
         print(f"   🎉 同步完成！共更新 {updated_count} 个文件。")
 
-def run_server():
-    """
-    启动 MkDocs 预览服务器
-    """
-    print("\n🚀 准备启动 MkDocs 预览服务器...")
-    print("   (按 Ctrl+C 停止服务)")
-    print("-" * 50)
-    
-    try:
-        # 在 website 目录下运行 mkdocs serve
-        # check=False 允许我们处理非零退出码（尽管 serve 通常是持续运行的）
-        subprocess.run(["mkdocs", "serve"], cwd=WEBSITE_DIR, check=True)
-    except KeyboardInterrupt:
-        print("\n\n🛑 服务器已停止。")
-    except FileNotFoundError:
-        print("\n❌ 错误: 未找到 'mkdocs' 命令。")
-        print("   请确保您的虚拟环境中已安装: pip install mkdocs-material")
-        sys.exit(1)
-    except Exception as e:
-        print(f"\n❌ 发生意外错误: {e}")
-        sys.exit(1)
-
-def main():
-    sync_files()
-    run_server()
 
 if __name__ == "__main__":
     main()
